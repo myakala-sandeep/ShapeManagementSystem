@@ -55,13 +55,9 @@ Edit
 
 ---
 
-## 📸 Sample Screenshot
+ ## 📸 Sample Screenshot
 
-> ![Eclipse Screenshot](https://user-images.githubusercontent.com/your_screenshot_here.png)
-
-(You can upload a screenshot in the repo and update the link)
-
----
+[![Project Screenshot](Screenshot%20(26).png)](Screenshot%20(26).png)
 
 ## 🙌 Author
 
