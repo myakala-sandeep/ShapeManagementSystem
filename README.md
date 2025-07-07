@@ -1,17 +1,17 @@
-# 🧮 Shape Management System
+ # 🧮 Shape Management System
 
-This is a Java-based console application to manage and validate different geometric shapes using object-oriented principles like inheritance, abstraction, and encapsulation.
+This is a Java-based console application that manages and validates geometric shapes (Triangle, Pentagon, and Hexagon) using Object-Oriented Programming principles.
 
 ---
 
 ## 📦 Features
 
 - ✅ Supports **Triangle**, **Pentagon**, and **Hexagon**
-- ✅ Validates input values based on **unit** (cm or inches)
-- ✅ Calculates **area** for each shape
-- ✅ Uses **Outline** class to manage thickness, color, and style of borders
-- ✅ Fully modular with **validation classes** for each shape
-- ✅ CLI-based menu system
+- ✅ Validates values based on **unit** (`cm` or `inches`)
+- ✅ Calculates **area** based on side/base/height
+- ✅ Uses **Outline class** for border thickness, color, and style
+- ✅ Modular code with individual **validation classes**
+- ✅ User-friendly CLI-based menu system
 
 ---
 
@@ -20,169 +20,55 @@ This is a Java-based console application to manage and validate different geomet
 ShapeManagementSystem/
 │
 ├── ShapeMainClass.java # Entry point
-├── Shapes.java # Abstract class
-├── Triangle.java # Triangle shape
-├── Pentagone.java # Pentagon shape
-├── Hexagone.java # Hexagon shape
-├── Outline.java # Outline settings
+├── Shapes.java # Abstract base class
+├── Triangle.java # Triangle logic
+├── Pentagone.java # Pentagon logic
+├── Hexagone.java # Hexagon logic
+├── Outline.java # Outline formatting
 │
-├── TriangleValidation.java # Validations for triangle
-├── PentagoneValidation.java # Validations for pentagon
-├── HexagoneValidation.java # Validations for hexagon
-├── OutlineValidation.java # Validations for outline
-├── ShapesValidation.java # General validations
+├── TriangleValidation.java # Triangle input checks
+├── PentagoneValidation.java # Pentagon input checks
+├── HexagoneValidation.java # Hexagon input checks
+├── OutlineValidation.java # Outline checks
+├── ShapesValidation.java # Color/unit validation
 
 yaml
-Copy
-Edit
-
----
+ ---
 
 ## 🛠️ Technologies Used
 
-- Java (JDK 21)
+- Java (JDK 21 or above)
 - Eclipse IDE
 - OOP Concepts (Abstraction, Inheritance, Polymorphism)
+- Java Collections (`ArrayList`, `Arrays.asList()`)
 
 ---
 
 ## 💡 How to Run
 
-1. Open project in **Eclipse** or any IDE
-2. Make sure all `.java` files are inside the same package: `oops_programming_style7`
-3. Run `ShapeMainClass.java`
-4. Use the CLI to create and validate different shapes
-
----
-
- ## 📸 Sample Screenshot
-
-[![Project Screenshot](Screenshot%20(26).png)](Screenshot%20(26).png)
-
-## 🙌 Author
-
-**Sandeep Myakala**  
-GitHub: [@myakala-sandeep](https://github.com/myakala-sandeep)
-
----
-
-## ⭐️ Show some love
-
-If you like this project, don’t forget to ⭐️ the repo!
-✅ Next Step:
-In your GitHub repo → click “Add file” → “Create new file”
-
-Name it README.md
-
-Paste the content above
-
-Click ✅ Commit changes
-
-Done mama! This will instantly upgrade your project to portfolio level ✨
-If you want a badge, Java logo, or screenshot preview, I’ll help you add too.
-
-
-
-
-
-
-
-
-You said:
-just copy above all and paste in rean.md file
-
-
-ChatGPT said:
-Perfect mama! Here's your full README.md content, ready to copy & paste into your GitHub file — no edits needed. Just follow these 3 quick steps:
-
-✅ Step-by-Step to Add README.md
-Go to your repo:
-👉 https://github.com/myakala-sandeep/ShapeManagementSystem
-
-Click:
-➕ “Add file” → “Create new file”
-
-In the file name box, enter:
-
-Copy
-Edit
-README.md
-Paste the below full content into the editor ⬇️
-
-📋 Copy and Paste This:
-markdown
-Copy
-Edit
-# 🧮 Shape Management System
-
-This is a Java-based console application to manage and validate different geometric shapes using object-oriented principles like inheritance, abstraction, and encapsulation.
-
----
-
-## 📦 Features
-
-- ✅ Supports **Triangle**, **Pentagon**, and **Hexagon**
-- ✅ Validates input values based on **unit** (cm or inches)
-- ✅ Calculates **area** for each shape
-- ✅ Uses **Outline** class to manage thickness, color, and style of borders
-- ✅ Fully modular with **validation classes** for each shape
-- ✅ CLI-based menu system
-
----
-
-## 📂 Folder Structure
-
-ShapeManagementSystem/
-│
-├── ShapeMainClass.java # Entry point
-├── Shapes.java # Abstract class
-├── Triangle.java # Triangle shape
-├── Pentagone.java # Pentagon shape
-├── Hexagone.java # Hexagon shape
-├── Outline.java # Outline settings
-│
-├── TriangleValidation.java # Validations for triangle
-├── PentagoneValidation.java # Validations for pentagon
-├── HexagoneValidation.java # Validations for hexagon
-├── OutlineValidation.java # Validations for outline
-├── ShapesValidation.java # General validations
-
-yaml
-Copy
-Edit
-
----
-
-## 🛠️ Technologies Used
-
-- Java (JDK 21)
-- Eclipse IDE
-- OOP Concepts (Abstraction, Inheritance, Polymorphism)
-
----
-
-## 💡 How to Run
-
-1. Open project in **Eclipse** or any IDE
-2. Make sure all `.java` files are inside the same package: `oops_programming_style7`
-3. Run `ShapeMainClass.java`
-4. Use the CLI to create and validate different shapes
+1. Clone or download the project
+2. Open in **Eclipse IDE**
+3. Make sure all files are in the same package: `oops_programming_style7`
+4. Run `ShapeMainClass.java`
+5. Follow the console prompts to create shapes
 
 ---
 
 ## 📸 Sample Screenshot
 
-> *(Upload and paste your Eclipse screenshot here later)*
+[![Project Screenshot](Screenshot%20(26).png)](Screenshot%20(26).png)
 
 ---
 
-## 🙌 Author
+## 👨‍💻 Author
 
 **Sandeep Myakala**  
 GitHub: [@myakala-sandeep](https://github.com/myakala-sandeep)
 
 ---
 
-## ⭐️ Show some love
+## ⭐️ Show Some Love
 
-If you like this project, don’t forget to ⭐️ the repo!
+If you like this project, please ⭐️ the repository — your support means a lot!
+
+---
