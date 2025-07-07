@@ -1,6 +1,13 @@
  # 🧮 Shape Management System
 
 This is a Java-based console application that manages and validates geometric shapes (Triangle, Pentagon, and Hexagon) using Object-Oriented Programming principles.
+ 
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse-ide&logoColor=white)
+![Platform](https://img.shields.io/badge/Console%20App-Java%20CLI-blue?style=for-the-badge)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/myakala-sandeep/ShapeManagementSystem?style=for-the-badge)
+
 
 ---
 
